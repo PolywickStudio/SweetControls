@@ -1,0 +1,92 @@
+package SweetControls6;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION OFF}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'CA SweetControls'}
+{$IMPLICITBUILD ON}
+
+requires
+  vcl,
+  rtl,
+  designide,
+  vclx,
+  dbrtl,
+  vcldb;
+
+contains
+  SCControl in 'SCControl.pas',
+  SCCommon in 'SCCommon.pas',
+  SCStdControls in 'SCStdControls.pas',
+  SCExtControls in 'SCExtControls.pas',
+  SCRegisters in 'SCRegisters.pas',
+  SCConsts in 'SCConsts.pas',
+  SCResStrs in 'SCResStrs.pas',
+  SCColorControls in 'SCColorControls.pas',
+  SCTabSet in 'SCTabSet.pas',
+  SCPanels in 'SCPanels.pas',
+  SCTrackbar in 'SCTrackbar.pas',
+  SCButtonSet in 'SCButtonSet.pas',
+  SCStatusBar in 'SCStatusBar.pas',
+  SCScrollbars in 'SCScrollbars.pas',
+  SCAdvEdits in 'SCAdvEdits.pas',
+  SCFontsAndColors in 'SCFontsAndColors.pas',
+  SCColorbox in 'SCColorbox.pas',
+  SCPropertyEditors in 'SCPropertyEditors.pas',
+  SCMaskEdit in 'SCMaskEdit.pas',
+  SCMaskEditor in 'SCMaskEditor.pas' {SCMaskEditorForm},
+  SCMaskInputEditor in 'SCMaskInputEditor.pas' {SCMaskInputForm},
+  SCPopupColors in 'SCPopupColors.pas',
+  SCDateTimeControls in 'SCDateTimeControls.pas',
+  SCImageBox in 'SCImageBox.pas',
+  SCSplitter in 'SCSplitter.pas',
+  SCEdits in 'SCEdits.pas',
+  SCSimpleListbox in 'SCSimpleListbox.pas',
+  SCStyleController in 'SCStyleController.pas',
+  SCVirtualListBox in 'SCVirtualListBox.pas',
+  SCVirtualCombobox in 'SCVirtualCombobox.pas',
+  SCLinkedControls in 'SCLinkedControls.pas',
+  SCRadioGroup in 'SCRadioGroup.pas',
+  SCCheckGroup in 'SCCheckGroup.pas',
+  SCGraphicButton in 'SCGraphicButton.pas',
+  SCDbCtrls in 'SCDbCtrls.pas',
+  SCDbExtCtrls in 'SCDbExtCtrls.pas',
+  SCDbCommon in 'SCDbCommon.pas',
+  SCDbNavButton in 'SCDbNavButton.pas',
+  SCHotkeyEdit in 'SCHotkeyEdit.pas',
+  SCCalculator in 'SCCalculator.pas',
+  SCSpinEdits in 'SCSpinEdits.pas',
+  SCLookups in 'SCLookups.pas',
+  SCScrollbox in 'SCScrollbox.pas',
+  SCInstrumentation in 'SCInstrumentation.pas',
+  SCDbEdits in 'SCDbEdits.pas',
+  SCBitmap in 'SCBitmap.pas',
+  SCPageControl in 'SCPageControl.pas',
+  SCStaticEdit in 'SCStaticEdit.pas',
+  SCInputs in 'SCInputs.pas',
+  SCTreeList in 'SCTreeList.pas',
+  SCTreeListEditor in 'SCTreeListEditor.pas' {TreeListEditorForm},
+  SCTreeColsEditor in 'SCTreeColsEditor.pas' {SCTreeColsForm},
+  SCNavBar in 'SCNavBar.pas',
+  SCGradient in 'SCGradient.pas';
+
+end.
